@@ -10,4 +10,6 @@ Este repositório contém os projetos desenvolvidos ao longo do curso CS50 Web.
 - Project 4 – SQL
 - Final Project – Aplicação Web Completa
 
+Algumas semanas do curso são focadas em teoria e boas práticas (UI, Testing, Security) e não possuem projetos individuais.
+
 > Todos os projetos foram desenvolvidos com foco em aprendizado e boas práticas.
