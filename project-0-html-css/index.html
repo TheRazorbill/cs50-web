@@ -20,48 +20,58 @@
         <h1>Search Engine</h1>
 
         <form action="https://www.google.com/search">
-          <label for="search" class="visually-hidden"></label>
-          <input type="text" id="search" name="q" placeholder="Pesquisar" />
-          <input type="submit" id="search-button" value="Buscar no Google" />
+          <label for="search" class="visually-hidden">Search</label>
+          <input type="text" class="search" name="q" placeholder="Pesquisar" />
+          
+          <div class="down-search">
+            <input type="submit" value="Buscar no Google" class="search-btn" />
+            <input
+              type="submit"
+              name="btnI"
+              value="I'm Feeling Lucky"
+              class="search-btn"
+            />
+          </div>
         </form>
       </div>
     </main>
 
     <footer>
       <p>Brasil</p>
+      <div class="down">
+        <nav class="about">
+          <a
+            href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+          >
+            Sobre
+          </a>
+          <a
+            href="https://business.google.com/br/google-ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+          >
+            Anúncios
+          </a>
+          <a
+            href="https://business.google.com/br/business-profile/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+          >
+            Negócios
+          </a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">
+            Como funciona a pesquisa
+          </a>
+        </nav>
 
-      <nav class="about">
-        <a
-          href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1"
-        >
-          Sobre
-        </a>
-        <a
-          href="https://business.google.com/br/google-ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
-        >
-          Anúncios
-        </a>
-        <a
-          href="https://business.google.com/br/business-profile/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
-        >
-          Negócios
-        </a>
-        <a href="https://www.google.com/search/howsearchworks/?fg=1">
-          Como funciona a pesquisa
-        </a>
-      </nav>
-
-      <nav class="config">
-        <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1">
-          Privacidade
-        </a>
-        <a href="https://policies.google.com/terms?hl=pt-BR&fg=1"> Termos </a>
-        <a
-          href="https://www.google.com/preferences?hl=pt-BR&client=safari&fg=1"
-        >
-          Configurações
-        </a>
-      </nav>
+        <nav class="config">
+          <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1">
+            Privacidade
+          </a>
+          <a href="https://policies.google.com/terms?hl=pt-BR&fg=1"> Termos </a>
+          <a
+            href="https://www.google.com/preferences?hl=pt-BR&client=safari&fg=1"
+          >
+            Configurações
+          </a>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
